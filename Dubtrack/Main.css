@@ -9,8 +9,8 @@
 @import url("https://krdemoz.github.io/Dubtrack/css/theme.css"); /* Replacement PlugDJ theme */
 @import url("https://nightbloo.github.io/dubtrack/dubtrack.css");
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
-@import url("https://rawgit.com/Netox005/Dubtrack/master/css/chatright.css"); /* Chat completly to the right */
-@import url("https://rawgit.com/Netox005/Dubtrack/master/css/videosmall.css"); /* Small video */
+@import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
+@import url("https://netox005.github.io/Dubtrack/css/videosmall.css"); /* Small video */
 
 /* Video next to chat */
 @media screen and (min-width: 72em) {
