@@ -2,12 +2,12 @@
 /* reliant on netux/demoz css */
 
 /* Imports */
-@import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
 @import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
 @import url("https://rawgit.com/Netox005/Dubtrack/master/css/videosmall.css"); /* Small video */
 @import url("https://netox005.github.io/Dubtrack/css/phonefix.css"); /* Phone Fixes */
 @import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* Animations */
 @import url("https://krdemoz.github.io/Dubtrack/css/theme.css"); /* Replacement PlugDJ theme */
+@import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
 
 /* Video next to chat */
 @media screen and (min-width: 72em) {
