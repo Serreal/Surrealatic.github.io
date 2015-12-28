@@ -1,9 +1,8 @@
 /* main css for NB3 Dubtrack Room */
-/* reliant on netux/maskinen/demoz css */
+/* reliant on netux/demoz css */
 
 /* Imports */
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
-@import url("https://mask1nen.github.io/dubtrack/dubtrack.css")
 @import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
 @import url("https://rawgit.com/Netox005/Dubtrack/master/css/videosmall.css"); /* Small video */
 @import url("https://netox005.github.io/Dubtrack/css/phonefix.css"); /* Phone Fixes */
