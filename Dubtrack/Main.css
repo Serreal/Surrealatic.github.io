@@ -73,22 +73,21 @@ span.close-browser:before { content: "\e903"; }
 #browser .browser-content .browser-content-header .form .music-type-select .icon-soundcloud { color: orange; }
 
 /* Chat avatars fix */
-#chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row { border-radius: 5px !important; }
-#chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row > img {
-    max-width: none;
-    height: 100%;
-    display: block;
-    margin: auto;
+#user_popover {
+  left:1167px !important;
 }
 
-
-/* Twitch Emotes (DubX) size fixes */
-img.emoji.twitch-emoji[alt="fishmoley"] { min-width: 2.5rem; } /* fishmoley */
-img.emoji.twitch-emoji[alt="yetiz"] { min-width: 3rem; } /* :yetiz: */
-img.emoji.twitch-emoji[alt="lenny"] { min-width: 3.5rem; } /* :lenny: */
-img.emoji.twitch-emoji[alt="firespeed"] { min-width: 4rem; } /* firespeed */
-img.emoji.twitch-emoji[alt="shrug"] { min-width: 5rem; } /* :shrug: */
-img.emoji.twitch-emoji[alt="angelthump"], img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :angelthump:, :taxibro: */
+#chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row {
+  border-radius: 5px !important; 
+}
+/* Fix chat position */
+.right_section {
+  height: calc(100vh - 114px)!important;
+}
+/*
+#chat .chat-container ul.chat-main li.user-5607ef7e424a6203007d4fbe .activity-row .text p { 
+  width: 240px; 
+}
 
 /* Profile fixes */
 #profileMainSection { top: 3.4rem; min-height: initial; height: calc(100vh - 6.9rem); overflow-y: auto; }
