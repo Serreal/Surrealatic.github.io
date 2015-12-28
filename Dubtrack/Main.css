@@ -95,15 +95,20 @@ span.close-browser:before { content: "\e903"; }
 #profileMainSection #profileSidebar #followersEl { margin-bottom: 3rem; }
 
 /* User banned/message deleted fix */
-#chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: .01; }
-#chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row::before {
-    content: "X";
-    position: absolute;
-    top: 3px;
-    left: 13px;
-    font-weight: 900;
-    color: red;
-    font-size: 1.5rem;
+#user_popover {
+  left:1167px !important;
+}
+
+#chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row {
+  border-radius: 5px !important; 
+}
+/* Fix chat position */
+.right_section {
+  height: calc(100vh - 114px)!important;
+}
+/*
+#chat .chat-container ul.chat-main li.user-5607ef7e424a6203007d4fbe .activity-row .text p { 
+  width: 240px; 
 }
 
 /* Other fixes */
