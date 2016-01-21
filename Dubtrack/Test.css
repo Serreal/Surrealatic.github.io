@@ -3,6 +3,7 @@
 /* And with the help of Mask1nen */
 
 /* Imports */
+@import url("https://krdemoz.github.io/Dubtrack/css/BG-Free/Themes/theme_blue.css"); /* Replacement PlugDJ theme */
 @import url("https://nightbloo.github.io/dubtrack/dubtrack.css");
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
 @import url("https://rawgit.com/Netox005/Dubtrack/master/css/chatright.css"); /* Chat completly to the right */
@@ -118,7 +119,7 @@ transparent 100%) !important;
 #main_player .player_header span {
   background: rgba(0,0,0,0.8) !important;
   color: #3083FF !important;
-  opacity: 1;
+  opacity: 1;   
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   width: 65px;
@@ -186,6 +187,7 @@ transparent 100%) !important;
 #chat .chat-container ul.chat-main li.user-5607ef7e424a6203007d4fbe .activity-row .text p { 
   width: 240px; 
 }
+
 /* Video next to chat */
 #main-room .left_section { 
   left: initial; right: 450px; 
@@ -199,7 +201,7 @@ transparent 100%) !important;
 
 /* Fix queue song color */
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success {
- background: #3083FF !important;
+ background:#3083FF !important;
 }
 
 /* Fix add to playlist background */
@@ -209,7 +211,7 @@ transparent 100%) !important;
 
 /* Fix mod controller active color */
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active {
- color: #3083FF !important;
+ color: white !important;
 }
 
 /* Fix playlist selector color */
