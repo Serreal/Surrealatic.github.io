@@ -1,11 +1,11 @@
 /* Imports */
-@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* Animations */
-@import url("https://surrealatic.github.io/Dubtrack/BlueTheme.css"); /* Blue Theme NEEDED */
-@import url("https://nightbloo.github.io/dubtrack/dubtrack.css"); /* Nb3 Dub Import */
-@import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
-@import url("https://rawgit.com/Netox005/Dubtrack/master/css/chatright.css"); /* Chat completly to the right */
-@import url("https://frosolf.github.io/siteimgs.css"); /* Special icons&images */
-@import url("https://rawgit.com/Netox005/Dubtrack/master/css/videosmall.css"); /* Small video */
+@import url("https://Surrealatic.github.io/Imports/Animations.css"); /* Animations */
+@import url("https://Surrealatic.github.io/Imports/BlueTheme.css"); /* Blue Theme NEEDED */
+@import url("https://Surrealatic.github.io/Imports/Nb3Dubx.css"); /* Nb3 Dub Import */
+@import url("https://Surrealatic.github.io/Imports/RainbowSliders.css"); /* Rainbow sliders */
+@import url("https://Surrealatic.github.io/Imports/ChatRight.css"); /* Chat completly to the right */
+@import url("https://Surrealatic.github.io/Imports/SpecialiconsAndimgs.css"); /* Special icons&images */
+@import url("https://Surrealatic.github.io/Imports/VideoSmall.css"); /* Small video */
 /* Queue redesign */
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item {
