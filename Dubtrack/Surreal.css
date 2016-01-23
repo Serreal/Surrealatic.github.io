@@ -1,9 +1,9 @@
 /* Imports */
-@import url("https://surrealatic.github.io/Dubtrack/BlueTheme.css");
-@import url("https://nightbloo.github.io/dubtrack/dubtrack.css");
+@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* Animations */
+@import url("https://surrealatic.github.io/Dubtrack/BlueTheme.css"); /* Blue Theme NEEDED */
+@import url("https://nightbloo.github.io/dubtrack/dubtrack.css"); /* Nb3 Dub Import */
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
 @import url("https://rawgit.com/Netox005/Dubtrack/master/css/chatright.css"); /* Chat completly to the right */
-@import url("https://surrealatic.github.io/Surrealatic.github.io/Css%20Shit%20Stuff%20Things/VideoSmall.css"); /* Small video */
 @import url("https://frosolf.github.io/siteimgs.css"); /* Special icons&images */
 @import url("https://rawgit.com/Netox005/Dubtrack/master/css/videosmall.css"); /* Small video */
 /* Queue redesign */
