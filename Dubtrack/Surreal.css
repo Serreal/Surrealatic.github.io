@@ -1,10 +1,11 @@
 /* Imports */
-@import url("https://mask1nen.github.io/dubtrack/ColorTheme.css");
+@import url("https://surrealatic.github.io/Surrealatic.github.io/Css%20Shit%20Stuff%20Things/ColorTheme.css");
 @import url("https://nightbloo.github.io/dubtrack/dubtrack.css");
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
 @import url("https://rawgit.com/Netox005/Dubtrack/master/css/chatright.css"); /* Chat completly to the right */
-@import url("https://rawgit.com/Netox005/Dubtrack/master/css/videosmall.css"); /* Small video */
-
+@import url("https://surrealatic.github.io/Surrealatic.github.io/Css%20Shit%20Stuff%20Things/VideoSmall.css"); /* Small video */
+@import url("https://netox005.github.io/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
+@import url("https://frosolf.github.io/siteimgs.css"); /* Special icons&images */
 /* Queue redesign */
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item {
@@ -20,7 +21,7 @@
 }
 
 #browser .browser-content .browser-content-main .sidebar .title {
-    color: deeppink;
+    color: magenta;
 }
 
 #browser .browser-content .browser-content-main .sidebar .import-playlist, #browser .browser-content .browser-content-main .sidebar .create-playlist {
@@ -59,13 +60,13 @@
 /* Fix ban font color */
 #user_popover .actions a input {
     background: #1a1a1a !important;
-    color: deeppink;
+    color: magenta;
 }
 
 /* Fix message counter color */
 #header-global .header-right-navigation .user-messages .message-counter {
     background: #1a1a1a;
-    color: deeppink;
+    color: magenta;
 }
 
 /* Fix footer bar gradient background */
@@ -91,7 +92,7 @@ transparent 100%) !important;
 .main-page-container #main-section #player-controller {
   border-radius: 0px !important;
   background: rgba(0,0,0,0.8) !important; 
-  color: deeppink;
+  color: magenta;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
     color: white;
@@ -101,20 +102,20 @@ transparent 100%) !important;
 #header-global {
   border-radius: 0px !important;
   background-color: rgba(0,0,0,0.8); 
-  color: deeppink;
+  color: magenta;
 }
 
 /* Player fixes */
 #main_player {
   background-color: rgba(0,0,0,0.8);
   margin-top:2px;
-  color: deeppink !important;
+  color: magenta !important;
 }
 
 /* Player buttons fixes */
 #main_player .player_header span {
   background: rgba(0,0,0,0.8) !important;
-  color: deeppink !important;
+  color: magenta !important;
   opacity: 1;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -128,7 +129,7 @@ transparent 100%) !important;
 
 #main_player .player_header span.active {
   background: black !important;
-  color: deeppink !important;
+  color: magenta !important;
   opacity: 1;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -137,7 +138,7 @@ transparent 100%) !important;
 }
 
 #main_player .play-song-link i {
-  color: deeppink; 
+  color: magenta; 
 }
 
 #main_player .play-song-link .queue-info {
@@ -183,10 +184,9 @@ transparent 100%) !important;
 #chat .chat-container ul.chat-main li.user-5607ef7e424a6203007d4fbe .activity-row .text p { 
   width: 240px; 
 }
-
 /* Video next to chat */
 #main-room .left_section { 
-  left: initial; right: 450px; 
+  left: initial; right: 449.5px; 
 }
 
 #main-room .left_section #main_player {
@@ -197,7 +197,7 @@ transparent 100%) !important;
 
 /* Fix queue song color */
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success {
- background:deeppink !important;
+ background:magenta !important;
 }
 
 /* Fix add to playlist background */
@@ -212,7 +212,7 @@ transparent 100%) !important;
 
 /* Fix playlist selector color */
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected {
- background: deeppink !important;
+ background: magenta !important;
  color: white !important;
 }
 
@@ -226,10 +226,10 @@ transparent 100%) !important;
 
 /* System message recolor */
 .right_section #chat .chat-main li[class*='system'] {
-  color: deeppink !important;
+  color: magenta !important;
   text-align: center;
-  border-top: deeppink 1px solid !important;
-  border-bottom: deeppink 1px solid !important;
+  border-top: magenta 1px solid !important;
+  border-bottom: magenta 1px solid !important;
 }
 
 /* Loading, promote/demote and song skips in chat not so similar to user /me's */
@@ -274,41 +274,4 @@ transparent 100%) !important;
   max-height: 30px !important;
   width: auto !important;
   height: auto !important;
-}
-
-/* Small video */
-@media screen and (min-width: 72em) { /* If not "phone mode" */
-    /* Main function */
-    #main-room .left_section { padding: 0; max-width: 32rem; margin-top: 0; }
-    #main-room .left_section  .main-player-wrapper { display: initial; }
-
-    /* Buttons fix */
-    #main-room .left_section #main_player .play-song-link {
-        width: 10rem;
-        font-size: .8rem;
-        padding: .75rem 1.5rem;
-        bottom: -3rem;
-    }
-    #main-room .left_section #main_player { padding-bottom: .5rem; }
-    #main-room .left_section #main_player .play-song-link .queue-info { padding-top: .1rem; }
-    #main-room .left_section #main_player .play-song-link i { position: relative; top: .125rem; }
-    #main-room .left_section #main_player .player_sharing span { font-size: 1.25rem; }
-    #main_player .player_header {
-        width: 73px;
-        top: 0 !important;
-        height: 286px;
-        left: -73px;
-    }
-    #main_player .player_header span {
-        float: left;
-        margin: .125rem 0;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-        position: relative;
-        padding: .5rem 0 .5rem .5rem;
-        width: 73px;
-    }
-    #main_player .player_header span.edit-room { padding: 1px 0 0 4px; float: right; width: initial; }
-    #main_player .player_header span.edit-room i { position: initial; }
-    #main_player .player_header span.skip-el { position: absolute; bottom: 0; right: initial; float: left; }
 }
