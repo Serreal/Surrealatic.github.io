@@ -1,10 +1,12 @@
 /* Imports */
-@import url("https://mask1nen.github.io/dubtrack/ColorTheme.css");
-@import url("https://nightbloo.github.io/dubtrack/dubtrack.css");
-@import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
-@import url("https://rawgit.com/Netox005/Dubtrack/master/css/chatright.css"); /* Chat completly to the right */
-@import url("https://surrealatic.github.io/Surrealatic.github.io/Css%20Shit%20Stuff%20Things/VideoSmall.css"); /* Small video */
-
+@import url("https://Surrealatic.github.io/Imports/MagentaTheme.css");
+@import url("https://Surrealatic.github.io/Imports/Nb3Dubx.css");
+@import url("https://Surrealatic.github.io/Imports/RainbowSliders.css"); /* Rainbow sliders */
+@import url("https://Surrealatic.github.io/Imports/ChatRight.css"); /* Chat completly to the right */
+@import url("https://Surrealatic.github.io/Imports/VideoMedium.css"); /* Small video */
+@import url("https://Surrealatic.github.io/Imports/VoteIcons.css"); /* NB3 Vote Icons */
+@import url("https://Surrealatic.github.io/Imports/SpecialiconsAndimgs.css"); /* Special icons&images */
+@import url("https://Surrealatic.github.io/Imports/Animations.css"); /* Animations */
 /* Queue redesign */
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item {
@@ -20,7 +22,7 @@
 }
 
 #browser .browser-content .browser-content-main .sidebar .title {
-    color: deeppink;
+    color: magenta;
 }
 
 #browser .browser-content .browser-content-main .sidebar .import-playlist, #browser .browser-content .browser-content-main .sidebar .create-playlist {
@@ -59,13 +61,13 @@
 /* Fix ban font color */
 #user_popover .actions a input {
     background: #1a1a1a !important;
-    color: deeppink;
+    color: magenta;
 }
 
 /* Fix message counter color */
 #header-global .header-right-navigation .user-messages .message-counter {
     background: #1a1a1a;
-    color: deeppink;
+    color: magenta;
 }
 
 /* Fix footer bar gradient background */
@@ -91,7 +93,7 @@ transparent 100%) !important;
 .main-page-container #main-section #player-controller {
   border-radius: 0px !important;
   background: rgba(0,0,0,0.8) !important; 
-  color: deeppink;
+  color: magenta;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
     color: white;
@@ -101,20 +103,20 @@ transparent 100%) !important;
 #header-global {
   border-radius: 0px !important;
   background-color: rgba(0,0,0,0.8); 
-  color: deeppink;
+  color: magenta;
 }
 
 /* Player fixes */
 #main_player {
   background-color: rgba(0,0,0,0.8);
   margin-top:2px;
-  color: deeppink !important;
+  color: magenta !important;
 }
 
 /* Player buttons fixes */
 #main_player .player_header span {
   background: rgba(0,0,0,0.8) !important;
-  color: deeppink !important;
+  color: magenta !important;
   opacity: 1;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -128,7 +130,7 @@ transparent 100%) !important;
 
 #main_player .player_header span.active {
   background: black !important;
-  color: deeppink !important;
+  color: magenta !important;
   opacity: 1;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -137,7 +139,7 @@ transparent 100%) !important;
 }
 
 #main_player .play-song-link i {
-  color: deeppink; 
+  color: magenta; 
 }
 
 #main_player .play-song-link .queue-info {
@@ -185,7 +187,7 @@ transparent 100%) !important;
 }
 /* Video next to chat */
 #main-room .left_section { 
-  left: initial; right: 450px; 
+  left: initial; right: 447px; 
 }
 
 #main-room .left_section #main_player {
@@ -196,7 +198,7 @@ transparent 100%) !important;
 
 /* Fix queue song color */
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success {
- background:deeppink !important;
+ background:magenta !important;
 }
 
 /* Fix add to playlist background */
@@ -211,7 +213,7 @@ transparent 100%) !important;
 
 /* Fix playlist selector color */
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected {
- background: deeppink !important;
+ background: magenta !important;
  color: white !important;
 }
 
@@ -225,10 +227,10 @@ transparent 100%) !important;
 
 /* System message recolor */
 .right_section #chat .chat-main li[class*='system'] {
-  color: deeppink !important;
+  color: magenta !important;
   text-align: center;
-  border-top: deeppink 1px solid !important;
-  border-bottom: deeppink 1px solid !important;
+  border-top: magenta 1px solid !important;
+  border-bottom: magenta 1px solid !important;
 }
 
 /* Loading, promote/demote and song skips in chat not so similar to user /me's */
