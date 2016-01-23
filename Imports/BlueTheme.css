@@ -107,7 +107,7 @@ span.name,
 #room-list #container-room-list .room-item .roomImage .join {
 	background: #3083FF;
 }
-#warning {#3083FF
+#warning {
 	background: #3083FF;
 	opacity: .90;
 }
@@ -360,3 +360,4 @@ span.usernameContainer, .followers-counter,
     border-top: #7851a9 1px solid !important;
     border-bottom: #7851a9 1px solid !important;
 }
+ 
