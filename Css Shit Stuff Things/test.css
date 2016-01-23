@@ -187,7 +187,7 @@ transparent 100%) !important;
 
 /* Video next to chat */
 #main-room .left_section { 
-  left: initial; right: 447px; 
+  left: initial; right: 447.5px; 
 }
 
 #main-room .left_section #main_player {
