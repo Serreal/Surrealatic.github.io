@@ -4,8 +4,8 @@
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
 @import url("https://rawgit.com/Netox005/Dubtrack/master/css/chatright.css"); /* Chat completly to the right */
 @import url("https://surrealatic.github.io/Surrealatic.github.io/Css%20Shit%20Stuff%20Things/VideoSmall.css"); /* Small video */
-@import url("https://netox005.github.io/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
 @import url("https://frosolf.github.io/siteimgs.css"); /* Special icons&images */
+@import url("https://rawgit.com/Netox005/Dubtrack/master/css/videosmall.css"); /* Small video */
 /* Queue redesign */
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item {
@@ -21,7 +21,7 @@
 }
 
 #browser .browser-content .browser-content-main .sidebar .title {
-    color: magenta;
+    color: #3083FF ;
 }
 
 #browser .browser-content .browser-content-main .sidebar .import-playlist, #browser .browser-content .browser-content-main .sidebar .create-playlist {
@@ -60,13 +60,13 @@
 /* Fix ban font color */
 #user_popover .actions a input {
     background: #1a1a1a !important;
-    color: magenta;
+    color: #3083FF;
 }
 
 /* Fix message counter color */
 #header-global .header-right-navigation .user-messages .message-counter {
     background: #1a1a1a;
-    color: magenta;
+    color: #3083FF;
 }
 
 /* Fix footer bar gradient background */
@@ -92,7 +92,7 @@ transparent 100%) !important;
 .main-page-container #main-section #player-controller {
   border-radius: 0px !important;
   background: rgba(0,0,0,0.8) !important; 
-  color: magenta;
+  color: #3083FF;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
     color: white;
@@ -102,20 +102,20 @@ transparent 100%) !important;
 #header-global {
   border-radius: 0px !important;
   background-color: rgba(0,0,0,0.8); 
-  color: magenta;
+  color: #3083FF;
 }
 
 /* Player fixes */
 #main_player {
   background-color: rgba(0,0,0,0.8);
   margin-top:2px;
-  color: magenta !important;
+  color: #3083FF !important;
 }
 
 /* Player buttons fixes */
 #main_player .player_header span {
   background: rgba(0,0,0,0.8) !important;
-  color: magenta !important;
+  color: #3083FF !important;
   opacity: 1;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -129,7 +129,7 @@ transparent 100%) !important;
 
 #main_player .player_header span.active {
   background: black !important;
-  color: magenta !important;
+  color: #3083FF !important;
   opacity: 1;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -138,7 +138,7 @@ transparent 100%) !important;
 }
 
 #main_player .play-song-link i {
-  color: magenta; 
+  color: #3083FF; 
 }
 
 #main_player .play-song-link .queue-info {
@@ -197,7 +197,7 @@ transparent 100%) !important;
 
 /* Fix queue song color */
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success {
- background:magenta !important;
+ background:#3083FF !important;
 }
 
 /* Fix add to playlist background */
@@ -226,10 +226,10 @@ transparent 100%) !important;
 
 /* System message recolor */
 .right_section #chat .chat-main li[class*='system'] {
-  color: magenta !important;
+  color: #3083FF !important;
   text-align: center;
-  border-top: magenta 1px solid !important;
-  border-bottom: magenta 1px solid !important;
+  border-top: #3083FF 1px solid !important;
+  border-bottom: #3083FF 1px solid !important;
 }
 
 /* Loading, promote/demote and song skips in chat not so similar to user /me's */
