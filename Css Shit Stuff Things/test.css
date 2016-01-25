@@ -109,7 +109,7 @@ transparent 100%) !important;
 /* Player fixes */
 #main_player {
   background-color: rgba(0,0,0,0.8);
-  margin-top:2px;
+  margin-top:1px;
   color: magenta !important;
 }
 
@@ -162,7 +162,7 @@ transparent 100%) !important;
 #main-room .right_section {
   background-color: rgba(0,0,0,0.8);
   border-left: 0px solid black !important;
-  margin-top: 2px !important;
+  margin-top: 1px !important;
 }
 /*
 .backstretch {
@@ -188,7 +188,7 @@ transparent 100%) !important;
 
 /* Video next to chat */
 #main-room .left_section { 
-  left: initial; right: 447px; 
+  left: initial; right: 449px; 
 }
 
 #main-room .left_section #main_player {
