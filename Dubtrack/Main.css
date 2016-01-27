@@ -1,4 +1,5 @@
 /* Imports */
+/* Imports */
 @import url("https://Surrealatic.github.io/Imports/Animations.css"); /* Animations */
 @import url("https://Surrealatic.github.io/Imports/BlueTheme.css"); /* Blue Theme NEEDED */
 @import url("https://Surrealatic.github.io/Imports/Nb3Dubx.css"); /* Nb3 Dub Import */
@@ -197,7 +198,7 @@ transparent 100%) !important;
 
 /* Fix queue song color */
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success {
- background:#3083FF !important;
+ background: #3083FF !important;
 }
 
 /* Fix add to playlist background */
@@ -212,7 +213,7 @@ transparent 100%) !important;
 
 /* Fix playlist selector color */
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected {
- background: magenta !important;
+ background: #3083FF !important;
  color: white !important;
 }
 
