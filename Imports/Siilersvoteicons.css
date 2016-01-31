@@ -1,0 +1,10 @@
+#player-controller .right ul li .dub-counter,
+#player-controller .right ul li .grab-counter
+{ position: relative; top: -.4em; }
+
+#player-controller .right ul li .icon-heart:before { content: url('https://http://i.imgur.com/9Wz0Joy.png'); }
+#player-controller .right ul li .dubup .icon-arrow-up:before { content: url('https://raw.githubusercontent.com/nightbloo/nightbloo.github.io/master/plug/icons/woot.png'); }
+#player-controller .right ul li .dubdown .icon-arrow-down:before { content: url('https://raw.githubusercontent.com/nightbloo/nightbloo.github.io/master/plug/icons/meh.png'); }
+
+/* â†“ Thanks to @hebgbs for the fixed position â†“ */
+#player-controller .right ul li:nth-child(n+2):nth-child(n-5){ position: relative; top: -4px !Important; }
